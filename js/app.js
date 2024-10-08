@@ -43,7 +43,7 @@ const resetBtnEl = document.querySelector('#reset')
 function init() {
     console.log('initialized');
 gameOver = false
-timer = setInterval('runGame', '2000');
+timer = setInterval(runGame, '2000');
 }
 
 function runGame() {
