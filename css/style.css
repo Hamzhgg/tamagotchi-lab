@@ -10,6 +10,10 @@ body {
   font-family: system-ui, sans-serif;
 }
 
+.hidden {
+  visibility: hidden
+}
+
 /* element styles */
 h1 {
   font-size: 3.5rem;

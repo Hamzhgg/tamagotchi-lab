@@ -49,6 +49,14 @@ timer = setInterval(runGame, '2000');
 function runGame() {
     console.log('the game is running!'); 
 }
+
+function render() {
+
+}
+
+function updateStates() {
+    
+}
 /*----------------------------- Event Listeners -----------------------------*/
 
 init();
