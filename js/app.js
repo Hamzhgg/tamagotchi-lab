@@ -28,10 +28,13 @@ let gameOver;
 
 
 /*------------------------ Cached Element References ------------------------*/
-const boredomStatEl = document.getElementById('boredom-stat');
-const hungerStatEl = document.getElementById('hunger-stat');
-const sleepinessStatEl = document.getElementById('sleepiness-stat');
+const boredomStatEl = document.querySelector('boredom-stat');
+const hungerStatEl = document.querySelector('hunger-stat');
+const sleepinessStatEl = document.querySelector('sleepiness-stat');
 
+const playBtnEl = document.querySelector('#play');
+const feedBtnEl = document.querySelector('#feed');
+const sleepBtnEl = document.querySelector('#sleep');
 
 /*-------------------------------- Functions --------------------------------*/
 
