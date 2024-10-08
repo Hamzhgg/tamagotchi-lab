@@ -36,9 +36,21 @@ const playBtnEl = document.querySelector('#play');
 const feedBtnEl = document.querySelector('#feed');
 const sleepBtnEl = document.querySelector('#sleep');
 
+const gameMessageEl = document.querySelector('#game');
+const resetBtnEl = document.querySelector('#reset')
+
 /*-------------------------------- Functions --------------------------------*/
+function init() {
+    console.log('initialized');
+gameOver = false
+timer = setInterval('runGame', '2000');
+}
 
-
-
+function runGame() {
+    console.log(): 'the game is running!'   
+}
 /*----------------------------- Event Listeners -----------------------------*/
 
+init();
+
+render();
