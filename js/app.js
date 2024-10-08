@@ -47,7 +47,7 @@ timer = setInterval('runGame', '2000');
 }
 
 function runGame() {
-    console.log(): 'the game is running!'   
+    console.log('the game is running!'); 
 }
 /*----------------------------- Event Listeners -----------------------------*/
 
